@@ -1,0 +1,35 @@
+/* Style.css */
+
+body {
+    background-color: khaki;
+}
+
+#main-heading {
+    text-align: center;
+    color: #007bff;
+    font-size: 24px;
+}
+
+#about-me {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+#interests-heading {
+    text-align: center;
+    color: #007bff;
+    font-size: 20px;
+}
+
+
+
+
+#interests-section{
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
