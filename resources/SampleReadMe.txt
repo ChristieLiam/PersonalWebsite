@@ -5,6 +5,7 @@
 * *Date Created*: DD MMM YYYY
 * *Last Modification Date*: DD MMM YYYY
 * *Lab URL*: <http://example.com/>
+* *Git URL*: <https://git.cs.dal.ca/lchristie/csci3172/labs/lab1>
 
 
 ## Authors
