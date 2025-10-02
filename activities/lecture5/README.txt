@@ -10,12 +10,14 @@
 
 * [Liam Christie](lm577319@dal.ca) - (Author)
 
-
 ## Built With
 
-
+HTML , JS & CSS
 
 ## Sources Used
+
+Used for fortune cookie phrases: https://www.best-ever-cookie-collection.com/fortune-cookie-sayings.html
+Used for 8Ball Phrases: https://magic-8ball.com/magic-8-ball-answers/
 
 ## Artificial Intelligence Tools Used
 
