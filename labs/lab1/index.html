@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About Me | Liam Christie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="main-container">
-    <h1 id="main-heading">About Me!</h1>
 
-    <div id="about-me-section">
-        <p id="about-me">Hello, My Name is Liam!</p>
-        <p id="about-me">I'm a 19-year-old from Newmarket, Ontario, just starting to explore the world of Computer Science at Dalhousie. </p>
-        <p id="about-me">My first year here has been a blast!</p>
-        <p id="about-me">I've made great friends, and I think that Halifax is an absolute gem!</p>
-        <p id="about-me">I have listed some of my favorite interests and hobbies below!</p>
-    </div>
+<div class="main-container">
+    <header id="header">
+        <h1>About Me | Liam Christie</h1>
+    </header>
 
-    <div id="interests-section">
-        <h2 id="interests-heading">My Interests</h2>
+    <main id="main">
+        <p class="about-me">Hi, my name's Liam!</p>
+        <p class="about-me">I'm 21 and going into my 3rd year of Computer Science. I'm really excited to start my co-op next term and gain some hands-on experience in the field.</p>
+        <p class="about-me">I just got my first car and have been having a blast driving around Halifax, exploring new places, and enjoying the freedom it brings.</p>
+        <p class="about-me">Third year has been super fun so far—I've been learning a lot, meeting amazing people, and getting involved in projects that challenge me.</p>
+        <p class="about-me">Outside of school, I love discovering new hobbies, spending time with friends, and soaking in everything Halifax has to offer. I'm looking forward to seeing what the rest of this year has in store!</p>
+
+    </main>
+
+    <aside id="right">
+        <h2>My Interests</h2>
         <ul id="interests-list">
             <li>Movies & TV</li>
             <li>Cars and Driving</li>
@@ -27,12 +31,31 @@
             <li>Video Games</li>
             <li>Outdoors</li>
             <li>Hanging out with friends and family</li>
-            <li>Music (Current favorite genre: Country)</li>
+            <li>Music (Current favorite genre: Pop)</li>
             <li>Watersports</li>
             <li>Sleeping</li>
         </ul>
-    </div>
+    </aside>
 
+    <section id="photos">
+        <figure>
+            <img src="photos/img1.JPG" alt="Liam and girlfriend">
+            <p>My Girlfriend, Maddy and I!</p>
+        </figure>
+        <figure>
+            <img src="photos/img2.JPG" alt="Liam's First Car">
+            <p>My First Car!</p>
+        </figure>
+        <figure>
+            <img src="photos/img3.JPG" alt="Liam with friend Manav">
+            <p>Me & My Friend Manav!</p>
+        </figure>
+    </section>
+
+    <footer id="footer">
+        <p>CSCI3172 Lab1 | Liam Christie © 2025</p>
+    </footer>
 </div>
+
 </body>
 </html>
