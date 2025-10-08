@@ -11,9 +11,10 @@
 
 ## Built With
 
-HTML
-CSS
-JS
+* HTML
+* CSS
+* JS
+* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
 
 ## Sources Used
 
