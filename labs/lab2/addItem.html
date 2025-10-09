@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Inventory</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<div id="main-container">
+    <div id="header">
+        <h1>The Inventory | Add Item</h1>
+    </div>
+
+    <div id="nav-bar">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">All Items</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Add Item</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" aria-disabled="true">Apply Discount</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" aria-disabled="true">Get Total Inventory Value</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="items-display">
+        <!--  Using Items Display for grid areas. But No Cards Will Appear here this is for adding new items to the inventory.  -->
+
+    </div>
+
+    <form id="itemForm" onsubmit="addItem()">
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Item Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter item name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="type" class="form-label">Type</label>
+            <input type="text" class="form-control" id="type" placeholder="e.g., potion, wand, guitar, harmonica"
+                   required>
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Price ($)</label>
+            <input type="number" class="form-control" id="price" placeholder="Enter price" required min="0">
+        </div>
+
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" required min="1">
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" id="description" rows="3" placeholder="Enter item description"
+                      required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Add Item</button>
+    </form>
+
+    <footer id="footer-container">
+        <p>Lab 2 | Liam Christie © 2025</p>
+    </footer>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
