@@ -11,6 +11,7 @@ body {
     grid-template-areas:
         "header header header"
         "nav nav nav"
+        "placeholder placeholder placeholder"
         "main main main"
         "footer footer footer";
     grid-template-columns: 2fr 2fr 1fr;
@@ -87,6 +88,73 @@ body {
     pointer-events: none;
 }
 
+/* AddItem Display Section */
+
+#add-item {
+    grid-area: placeholder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    color: #495057;
+    min-height: 400px;
+    width: 90%;
+    max-width: 600px;
+}
+
+#itemForm {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Placeholder Section */
+#placeholder-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    grid-area: placeholder;
+}
+
+/* Discount Section (will appear in placeholder)*/
+#discount-display {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    color: #495057;
+    max-width: 500px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#discount-display form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Total Price Section (will appear in placeholder) */
+
+#total-display {
+    padding: 20px;
+    color: #495057;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
 
 /* Card Display Section */
 
@@ -96,12 +164,21 @@ body {
     padding: 10px;
     flex-wrap: wrap;
     grid-area: main;
-    background-color: dodgerblue;
+    gap: 10px;
 }
 
 
 #items-display > .card {
-    flex: 1 1 calc(100% / 3);
+    flex: 1 1 calc(100% / 3 - 20px) ;
+    max-width: calc(100% / 3);
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#items-display > .card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* stronger shadow */
+    flex: 1 1 calc(100% / 3 - 20px) ;
     max-width: calc(100% / 3);
     box-sizing: border-box;
 }
@@ -110,9 +187,17 @@ body {
 /* Footer Section */
 #footer-container {
     grid-area: footer;
-    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
     text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
+
 
 /* Responsive layout */
 @media (max-width: 500px) {
@@ -120,6 +205,7 @@ body {
         grid-template-areas:
             "header"
             "nav"
+            "placeholder"
             "main"
             "sidebar"
             "footer";
@@ -130,16 +216,16 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     #items-display > .card {
-        flex: 1 1 calc(50% - 10px); /* 2 per row on tablets */
-        max-width: calc(50% - 10px);
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50%);
     }
 }
 
 @media (max-width: 500px) {
     #items-display > .card {
-        flex: 1 1 100%; /* 1 per row on phones */
+        flex: 1 1 100%;
         max-width: 100%;
     }
 }
