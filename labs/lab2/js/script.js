@@ -24,8 +24,8 @@ function saveItems() {
 
 // Display all items on page load if on index.html
 window.addEventListener("DOMContentLoaded", () => {
-    const currentPage = window.location.pathname;
-    if (currentPage.includes("index.html")) {
+    const container = document.getElementById('items-display');
+    if (container) {
         listItems();
     }
 });
