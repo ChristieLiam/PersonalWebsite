@@ -15,11 +15,20 @@
 * HTML
 * JS
 * CSS
+* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
+
 
 ## Sources Used
+
+* [Image] No Image Available (img/default.png) - https://thenounproject.com/browse/icons/term/no-image-available/
+* [Image] 1-Up Mushroom (img/temp3.png)- https://www.mariowiki.com/1-Up_Mushroom
+* [Image] Super Mushroom (img/temp1.png) - https://www.mariowiki.com/Super_Mushroom
+* [Image] Mini Mushroom (img/temp2.png) - https://www.mariowiki.com/Mini_Mushroom
 
 
 ## Artificial Intelligence Tools Used
 
 ## Acknowledgments
 
+## Notes
+if you whis to see the test beasts... well I used mario mushrooms, you can un-comment the button that will add them in index.html. line:42
