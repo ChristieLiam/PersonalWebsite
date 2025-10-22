@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Registration Form</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container mt-4">
+	<h1 class="mb-4">Registration Form</h1>
+
+	<form id="registrationForm">
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label for="firstName">First Name:</label>
+				<input
+						type="text"
+						id="firstName"
+						name="firstName"
+						required
+						class="form-control"
+						pattern="^[A-Za-z]+( [A-Za-z]+)?$"
+						title="First name can only contain letters and a single space (e.g., 'Maria' OR 'Maria Gabriella').">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label for="lastName">Last Name:</label>
+				<input
+						type="text"
+						id="lastName"
+						name="lastName"
+						required
+						class="form-control"
+						pattern="^[A-Za-z]+(['\-][A-Za-z]+)*$"
+						title="Last name can contain letters, apostrophes, and hyphens (e.g., O'Brien, Smith-Burns).">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input
+					type="email"
+					id="email"
+					name="email"
+					required
+					class="form-control"
+					pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$"
+					title="Enter a valid email address (e.g., name@example.com).">
+		</div>
+
+		<div class="form-group">
+			<label for="pass">Password:</label>
+			<input
+					type="password"
+					id="pass"
+					name="pass"
+					required
+					class="form-control"
+					pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9]).{12,}$"
+					title="Password must be at least 12 characters long and include uppercase, lowercase, number, and special character.">
+		</div>
+
+		<button type="submit" class="btn btn-outline-primary btn-lg" id="submitButton">Register</button>
+	</form>
+</div>
+
+<!-- Optional JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
