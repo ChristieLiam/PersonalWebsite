@@ -41,8 +41,12 @@
 			<input type="text" placeholder="Enter a number" name="number1" id="number1">
 			<input type="text" placeholder="Enter a number" name="number2" id="number2">
 		</p>
-		<input type="submit" name="submit" value="Add" onclick="addition()">
-  	</form>
+		<input type="submit" name="submit" value="Add" onclick="addition(event)">
+		<input type="submit" name="submit" value="Subtract" onclick="subtract(event)">
+		<input type="submit" name="submit" value="Multiply" onclick="multiply(event)">
+		<input type="submit" name="submit" value="Divide" onclick="divide(event)">
+	</form>
+	<div id="result-container"></div>
   	<hr>
   	<p class="create"><strong><a href="#">Create a Page</a> for a celebrity, band or business.</strong></p>
   </section>
