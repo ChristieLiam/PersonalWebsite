@@ -3,7 +3,7 @@
 * *Date Created*: 01 10 2025
 * *Last Modification Date*: 01 10 2025
 * *Lab URL*: <https://web.cs.dal.ca/~lchristie/csci3172/labs/lab1/>
-* *Git URL*: <https://git.cs.dal.ca/lchristie/csci3172/labs/lab1>
+* *Git URL*: <https://git.cs.dal.ca/lchristie/csci-3172/labs/lab1>
 
 ## Authors
 
