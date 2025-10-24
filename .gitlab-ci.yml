@@ -1,17 +1,15 @@
 stages:
-    - deploy
-    
-deploy:
-    stage: deploy
-    image: ubuntu:latest # use ubuntu image
+  - deploy
 
-script:
+deploy:
+  stage: deploy
+  image: ubuntu:latest # use ubuntu image
+  script:
     - apt-get update && apt-get install -y openssh-client
     - echo "Starting deployment process..."
     # use sshpass connect to the server
     - apt-get install -y sshpass
-    - sshpass -p "$CI_PASSWORD" ssh -o StrictHostKeyChecking=no
-    
-lchristie@timberlea.cs.dal.ca '~/public_html/update.sh'
-only:
-- main
+    # This command must be on one single line
+    - sshpass -p "$CI_PASSWORD" ssh -o StrictHostKeyChecking=no lchristie@timberlea.cs.dal.ca '~/public_html/update.sh'
+  only:
+    - main
