@@ -9,12 +9,44 @@
   <link rel="stylesheet" href="css/style.css">    <title>Lab3 | Login</title>
 </head>
 <body>
+<div class="container mt-4">
+  <h1 class="mb-4">Lab 3 | Login</h1>
+  <form id="login-form">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Username Here..."
+              required
+              class="form-control"
+              title="Enter Username Here.">
+      <span id="username-error" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label for="pass">Password:</label>
+      <input
+              type="password"
+              id="pass"
+              name="pass"
+              placeholder="Enter Password Here..."
+              required
+              class="form-control"
+              title="Enter Password Here.">
+    </div>
 
-<h1>Login | Lab 3</h1>
+    <button type="submit" class="btn btn-outline-primary btn-lg" id="submitButton">Login</button>
+  </form>
+  <div id="form-status-message" class="mt-3"></div>
 
 
+  <br>
+  <p> Liam Christie | Lab 3 | CSCI 3172</p>
+  <a href="index.html" class="btn btn-outline-secondary">Register</a>
 
-<p> Liam Christie | Lab 3 | CSCI 3172</p> <a href="index.html" class="button-link">Register</a>
+</div>
+
 
 <script src="js/script.js"></script>
 </body>
