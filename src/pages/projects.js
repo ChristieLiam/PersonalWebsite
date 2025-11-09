@@ -17,6 +17,7 @@ function Projects() {
                         DEEBug is a web-based AI tool designed to help developers detect
                         and fix performance bugs (like low accuracy) in deep learning models.
                     </p>
+                    <p>I worked on this while in my class CSCI-2691 Junior Developer Class.</p>
                     <h5>My Role: Frontend Developer & Backend Contributor</h5>
                     <p>
                         As a developer on the DEEBug project, I was focused on improving

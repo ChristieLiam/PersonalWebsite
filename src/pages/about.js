@@ -24,7 +24,7 @@ function About() {
                 <li>Database Systems</li>
                 <li>Server Side Scripting</li>
                 <li>Data Structures and Algorithms</li>
-                <li>Junior Developer Course</li>
+                <li>Junior Developer Course (Helped Develop DEEBug)</li>
             </ul>
 
             <h4 className="mt-4">High School Diploma</h4>
@@ -58,7 +58,8 @@ function About() {
                     <ul>
                         <li>React.js</li>
                         <li>AWS Amplify</li>
-                        <li>Node.js (from Server Side Scripting)</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
                         <li>M365 & Google Workspace</li>
                     </ul>
                 </div>
