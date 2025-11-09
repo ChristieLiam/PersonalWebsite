@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
-
-function notFound() {
+function Readme() {
     return (
         <div className="alert alert-light">
-            <h5>Sorry, we can't seem to find the page you're looking for.</h5>
-            <p>Error 404: Page Not Found</p>
+            <h5>Welcome to the Lab 5 README!</h5>
+            <p>Page not built yet</p>
             <Link to="/" className="btn btn-primary">
                 Go Back Home
             </Link>
@@ -14,4 +13,4 @@ function notFound() {
     );
 }
 
-export default notFound;
+export default Readme;

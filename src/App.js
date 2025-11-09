@@ -6,6 +6,7 @@ import Footer from './components/footer.js';
 import Home from './pages/home.js';
 import About from './pages/about.js';
 import Projects from './pages/projects.js';
+import Readme from './pages/readme.js';
 import NotFound from './pages/NotFound.js'
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<NotFound />} />
+              <Route path="/readme" element={<Readme />} />
+              <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

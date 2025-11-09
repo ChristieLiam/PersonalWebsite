@@ -1,9 +1,11 @@
 import React from 'react';
 
-function footer() {
+function Footer() {
     return (
-        <h4>Header Here</h4>
+        <footer className="m-0 p-1 bg-dark d-flex justify-content-center">
+            <p className="mb-0 text-light">Lab 5 - CSCI3172 | Liam Christie</p>
+        </footer>
     );
 }
 
-export default footer;
+export default Footer;
