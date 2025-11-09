@@ -7,7 +7,7 @@
 
 ## Authors
 
-* [Liam Christie](lm577319@dal.ca) - (Author)
+* [Liam Christie](lm577319@dal.ca) - (Author) | B00968728 (BannerID)
 
 ## Built With
 
@@ -16,6 +16,10 @@
 * JS
 * React
 * [Bootstrap](https://getbootstrap.com/) - The CSS framework used
+
+## Unit Tests
+
+[**FILL THIS IN** - As required by the lab, add a brief description here of what you did to test your application. [cite_start]For example: "I tested the navigation by clicking each link in the header to ensure it routed to the correct page. I also tested the 404 page by typing a non-existent URL. All components rendered as expected."]
 
 ## Sources Used
 
