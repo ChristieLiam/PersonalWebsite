@@ -8,7 +8,7 @@ function notFound() {
             <h2 className="display-4">Page Not Found</h2>
             <p className="lead">Sorry, we couldn't find the page you're looking for.</p>
 
-            <Link to="/" className="btn btn-primary btn-lg">Go Back Home</Link>
+            <Link to="/" className="btn btn-dark btn">Go Back Home</Link>
         </div>
     );
 }
