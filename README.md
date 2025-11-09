@@ -35,8 +35,9 @@ All automated tests were run using npm test and passed successfully.
 
 ## Sources Used
 
-N/A
-
+* **Bootstrap 5:** The layout and components for this site were styled using the Bootstrap 5 framework.
+    * Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  
 ## Artificial Intelligence Tools Used
 
 N/A
