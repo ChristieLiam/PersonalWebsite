@@ -1,7 +1,7 @@
 # Lab 5
 
 * *Date Created*: 08 11 2025
-* *Last Modification Date*: 09 11 2025
+* *Last Modification Date*: 10 11 2025
 * *Lab URL*: <https://main.d1wpx8fuhzumwe.amplifyapp.com>
 * *Git URL*: <https://git.cs.dal.ca/lchristie/csci-3172/labs/lab5>
 
@@ -19,19 +19,24 @@
 
 ## Testing and Error Handling
 
-To properly test this application, I performed both manual and automated unit testing to verify individual components and application flow.
+I developed a test suite using React Testing Library and Jest, comprised of 8 tests:
 
-**Manual Cross-Browser Testing:** I tested the deployed AWS Amplify site on Google Chrome, Mozilla Firefox, and Apple Safari. The application layout, routing, and all components rendered as expected with no visual or functional errors.
+### Unit Tests (6 Tests):
 
-**Automated Unit Testing (React Testing Library):** I wrote a suite of four unit tests to cover critical components:
+* **Header:** Verifies that the Header component renders the main navigation container, the clickable site title link (Lab 5: React Webpage On AWS), and all three main navigation links ("Home", "About", "Projects").
+* **Footer:** Confirms the Footer component renders the correct copyright information (Lab 5 - CSCI3172 | Liam Christie ©).
+* **Home Page:** Checks that the Home page renders its unique title (Liam Christie | Portfolio), the introductory description text, and the profile image (Liam Catching Baseball).
+* **About Page:** Verifies the About page renders all key sections, including the "About Me" heading and paragraph, the "Education" heading and university text, and the "Technical Skills" heading and description.
+* **Projects Page:** Confirms the Projects page renders its main title (My Projects) as well as the headings and descriptions for all listed projects (e.g., "DEEBug" and "Personal Portfolio Website").
+* **NotFound Page:** Isolates the NotFound component to ensure it renders both the "404 - Page Not Found" heading and the "Go Back Home" link.
 
-1. **Header Component:** A test isolates the Header component to verify that all three main navigation links ("Home", "About", "Projects") are successfully rendered.
+### Integration Tests (2 Tests):
 
-2. **Home Component:** A test verifies that the Home page component correctly renders its unique welcome message. * NotFound Component: A test isolates the NotFound component to verify that it renders both the 404 error message and the required "Go Back Home" link.
+* **App Layout:** Verifies that the main App component correctly renders both the Header (checking for the navigation region and title) and the Footer (checking for the copyright text) on a standard page.
+* **404 Routing:** Simulates a user visiting a non-existent URL (e.g., /some/bad/route) and confirms that the router correctly renders the NotFound component by checking for its unique 404 heading and link.
 
-3. **404 Routing:** An integration test on the main App component verifies the router's error handling. It simulates a visit to a non-existent URL and confirms that the NotFound component is rendered, fulfilling the "DO NOT hard-code" requirement.
 
-All automated tests were run using npm test and passed successfully.
+**All 8 automated tests were run using npm test and passed successfully.**
 
 ## Sources Used
 

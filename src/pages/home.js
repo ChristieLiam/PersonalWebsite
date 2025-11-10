@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import profileImage from '../imgs/me.jpg';
 
 function Home() {
