@@ -19,7 +19,7 @@ function Home() {
                             <p>Explore the site to see my projects or learn more about my skills.</p>
                         </div>
                         <div className="col-md-4 text-center">
-                            <img src={profileImage} alt="Liam Christie Profile" className="img-fluid shadow-lg" style={{ maxWidth: '300px', height: 'auto' }}/>
+                            <img src={profileImage} alt="Liam Catching Baseball" className="img-fluid shadow-lg" style={{ maxWidth: '300px', height: 'auto' }}/>
                         </div>
                     </div>
                 </div>
