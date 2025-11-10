@@ -1,14 +1,15 @@
+import { test, expect } from '@jest/globals';
 import { render, screen } from '@testing-library/react';
-import { BrowserRouter, MemoryRouter } from 'react-router-dom';
-import App from './App';
-import Header from './components/Header';
-import Home from './pages/Home'; // <-- Make sure this one is here
-import NotFound from './pages/NotFound';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 test('renders Home page with correct title, description, and links', () => {
     render(
-        <BrowserRouter>
+        <Router>
             <Home/>
-        </BrowserRouter>
+        </Router>
     );
+
+    expect(screen.getByText(/Liam Christie | Portfolio/i)).toBeInTheDocument();
+
 });
