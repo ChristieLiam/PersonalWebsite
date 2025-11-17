@@ -11,7 +11,7 @@ I built this site to showcase my portfolio of web development projects. It serve
 
 ## Authors
 
-* [Liam Christie](lm577319@dal.ca) - (Author) | B00968728 (BannerID)
+* [Liam Christie](lm577319@dal.ca) - (Author)
 
 ## Built With
 
@@ -19,7 +19,7 @@ I built this site to showcase my portfolio of web development projects. It serve
 * CSS
 * JS
 * React
-* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Testing and Error Handling
 
@@ -46,11 +46,3 @@ I developed a test suite using React Testing Library and Jest, comprised of 8 te
 
 * **Bootstrap 5:** The layout and components for this site were styled using the Bootstrap 5 framework.
     * Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
-  
-## Artificial Intelligence Tools Used
-
-N/A
-
-## Acknowledgments
-
-N/A
