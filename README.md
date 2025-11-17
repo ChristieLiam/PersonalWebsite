@@ -1,9 +1,13 @@
-# Lab 5
+# Personal Website
 
 * *Date Created*: 08 11 2025
 * *Last Modification Date*: 10 11 2025
-* *Lab URL*: <https://main.dtgafn2dlji78.amplifyapp.com/>
-* *Git URL*: <https://git.cs.dal.ca/lchristie/csci-3172/labs/lab5>
+* *Site URL*: <https://main.dtgafn2dlji78.amplifyapp.com/>
+
+
+## About
+
+I built this site to showcase my portfolio of web development projects. It serves as a central hub for my work, demonstrating my skills in building modern, responsive applications with HTML, CSS, and JavaScript. Every project here is built with a focus on web standards, W3C compliance, and a clean, user-friendly experience.
 
 ## Authors
 
