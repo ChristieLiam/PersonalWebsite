@@ -2,7 +2,7 @@
 
 * *Date Created*: 08 11 2025
 * *Last Modification Date*: 10 11 2025
-* *Lab URL*: <https://main.d1wpx8fuhzumwe.amplifyapp.com>
+* *Lab URL*: <https://main.dtgafn2dlji78.amplifyapp.com/>
 * *Git URL*: <https://git.cs.dal.ca/lchristie/csci-3172/labs/lab5>
 
 ## Authors
