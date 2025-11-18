@@ -7,7 +7,7 @@
 
 ## About
 
-I built this site to showcase my portfolio of web development projects. It serves as a central hub for my work, demonstrating my skills in building modern, responsive applications with HTML, CSS, and JavaScript. Every project here is built with a focus on web standards, W3C compliance, and a clean, user-friendly experience.
+This site serves as a live, responsive showcase of my development skills, built using modern methodologies. The application is implemented with React, emphasizing component-based architecture, efficient state management, and API integration. A key focus of this project was quality assurance, including implementing a comprehensive unit and integration test suite (using Jest/React Testing Library) to guarantee stability and user experience across all core components and routing.
 
 ## Authors
 
