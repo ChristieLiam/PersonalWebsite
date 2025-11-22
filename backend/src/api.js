@@ -96,8 +96,8 @@ router.get('/projects', (req, res) => {
                 "id": "portfolio-site",
                 "title": "Personal Portfolio Website",
                 "role": "Frontend Developer",
-                "context": "CSCI 3172",
-                "summary": "A multi-page personal portfolio built to showcase skills, education, and projects, meeting WCAG accessibility standards.",
+                "context": "Academic Project",
+                "summary": "This website! A multi-page personal portfolio built to showcase my Skills.js, education, and projects.",
                 "keyContributions": [
                     "Built from scratch using React and React Router to create a multi-page application.",
                     "Styled with Bootstrap 5 for a clean, modern design meeting WCAG accessibility requirements.",
@@ -126,7 +126,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "programming-web-dev",
                 "categoryName": "Programming & Web Development",
-                "description": "Foundation from CS degree and projects",
+                "description": "Core proficiency in full-stack development, object-oriented programming, and modern web standards.",
                 "skills": [
                     "Python",
                     "Java",
@@ -145,7 +145,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "cybersecurity-net-sec",
                 "categoryName": "Cybersecurity & Network Security",
-                "description": "High-value category from cheat sheets",
+                "description": "Comprehensive understanding of network defense, cryptographic protocols, and vulnerability mitigation strategies.",
                 "skills": [
                     "Cybersecurity",
                     "Network Security",
@@ -168,7 +168,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "data-ai",
                 "categoryName": "Data & AI",
-                "description": "Covers AI project and Database course",
+                "description": "Experience with database management systems, data analysis, and applied AI/ML workflows.",
                 "skills": [
                     "Data Analysis",
                     "Data Management",
@@ -182,7 +182,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "tools-methodologies",
                 "categoryName": "Tools & Methodologies",
-                "description": "Tools and processes used",
+                "description": "Proficiency in version control, agile workflows, and industry-standard analysis tools.",
                 "skills": [
                     "Git",
                     "Source Control",
@@ -199,7 +199,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "interpersonal-soft-skills",
                 "categoryName": "Interpersonal & Soft Skills",
-                "description": "Crucial skills built in other jobs",
+                "description": "Professional attributes focused on collaboration, adaptability, and effective technical communication.",
                 "skills": [
                     "Communication",
                     "Teamwork",
