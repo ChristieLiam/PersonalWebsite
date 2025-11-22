@@ -9,11 +9,6 @@ const router = express.Router();
 
 app.use(cors());
 
-router.get('/', (req, res) => {
-    res.json({
-        message: "Hello World!"
-    });
-});
 
 router.get('/projects', (req, res) => {
     res.json({
@@ -115,10 +110,6 @@ router.get('/skills', (req, res) => {
                     ]
                 }
             ]
-        },
-        "meta": {
-            "totalCategories": 5,
-            "timestamp": "2025-11-21T23:11:04Z"
         }
     })
 })
