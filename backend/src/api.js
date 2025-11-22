@@ -126,7 +126,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "programming-web-dev",
                 "categoryName": "Programming & Web Development",
-                "description": "Core proficiency in full-stack development, object-oriented programming, and modern web standards.",
+                "description": "Full-stack engineering and object-oriented design.",
                 "skills": [
                     "Python",
                     "Java",
@@ -145,7 +145,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "cybersecurity-net-sec",
                 "categoryName": "Cybersecurity & Network Security",
-                "description": "Comprehensive understanding of network defense, cryptographic protocols, and vulnerability mitigation strategies.",
+                "description": "Network defense, protocols, and cryptography.",
                 "skills": [
                     "Cybersecurity",
                     "Network Security",
@@ -168,7 +168,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "data-ai",
                 "categoryName": "Data & AI",
-                "description": "Experience with database management systems, data analysis, and applied AI/ML workflows.",
+                "description": "Database management and machine learning.",
                 "skills": [
                     "Data Analysis",
                     "Data Management",
@@ -182,7 +182,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "tools-methodologies",
                 "categoryName": "Tools & Methodologies",
-                "description": "Proficiency in version control, agile workflows, and industry-standard analysis tools.",
+                "description": "Version control, Agile, and DevOps tools.",
                 "skills": [
                     "Git",
                     "Source Control",
@@ -199,7 +199,7 @@ router.get('/skills', (req, res) => {
             {
                 "id": "interpersonal-soft-skills",
                 "categoryName": "Interpersonal & Soft Skills",
-                "description": "Professional attributes focused on collaboration, adaptability, and effective technical communication.",
+                "description": "Professional communication and collaboration.",
                 "skills": [
                     "Communication",
                     "Teamwork",
