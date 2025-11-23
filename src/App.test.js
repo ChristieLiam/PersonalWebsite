@@ -19,7 +19,7 @@ test('Renders Home page with correct title, description, and links', () => {
         </Router>
     );
 
-    expect(screen.getByRole('heading', { name: /Liam Christie | Portfolio/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /Welcome To My Website!/i })).toBeInTheDocument();
     expect(screen.getByText(/Explore the site to see my projects or learn more about my skills./i)).toBeInTheDocument();
     expect(screen.getByRole('img', { name: /Liam Catching Baseball/i })).toBeInTheDocument();
 
@@ -73,11 +73,12 @@ test('Header Renders With Correct Information and Links', () => {
     expect(screen.getByRole('navigation')).toBeInTheDocument();
 
 
-    expect(screen.getByRole('link',{ name: /Lab 5: React Webpage On AWS/i } )).toBeInTheDocument();
+    expect(screen.getByRole('link',{ name: /Liam Christie | Portfolio/i } )).toBeInTheDocument();
 
     expect(screen.getByRole('link', { name: /Home/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /About/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Projects/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Contact/i })).toBeInTheDocument();
 
 });
 
@@ -88,7 +89,7 @@ test('Footer Renders With Correct Information', () => {
         </Router>
     );
 
-    expect(screen.getByText(/Lab 5 - CSCI3172 | Liam Christie ©/i)).toBeInTheDocument();
+    expect(screen.getByText(/Liam Christie© 2025/i)).toBeInTheDocument();
 });
 
 test('Renders 404 Error page with correct error code and information regarding error (Page Not Found)', () => {
@@ -116,8 +117,8 @@ test('Renders All & Any Pages with header and footer', () =>{
     );
 
     expect(screen.getByRole('navigation')).toBeInTheDocument();
-    expect(screen.getByRole('link',{ name: /Lab 5: React Webpage On AWS/i } )).toBeInTheDocument();
-    expect(screen.getByText(/Lab 5 - CSCI3172 | Liam Christie ©/i)).toBeInTheDocument();
+    expect(screen.getByRole('link',{ name: /Liam Christie | Portfolio/} )).toBeInTheDocument();
+    expect(screen.getByText(/Liam Christie© 2025/i)).toBeInTheDocument();
 
 });
 

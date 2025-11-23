@@ -7,7 +7,7 @@
 
 ## About
 
-This site serves as a live, responsive showcase of my development skills, built using modern methodologies. The application is implemented with React, emphasizing component-based architecture, efficient state management, and API integration. A key focus of this project was quality assurance, including implementing a comprehensive unit and integration test suite (using Jest/React Testing Library) to guarantee stability and user experience across all core components and routing.
+I built this site to showcase my portfolio of web development projects. It serves as a central hub for my work, demonstrating my skills in building modern, responsive applications with HTML, CSS, and JavaScript. Every project here is built with a focus on web standards, W3C compliance, and a clean, user-friendly experience.
 
 ## Authors
 
@@ -19,9 +19,12 @@ This site serves as a live, responsive showcase of my development skills, built 
 * CSS
 * JS
 * React
-* [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
+* AWS Amplify (Frontend)
+* Netlify (Backend)
+* **Deployed Though Git:** https://github.com/ChristieLiam/PersonalWebsite
 
-## Testing and Error Handling
+## Testing and Error Handling : Under Construction Disregard For Now
 
 I developed a test suite using React Testing Library and Jest, comprised of 8 tests:
 
@@ -45,4 +48,8 @@ I developed a test suite using React Testing Library and Jest, comprised of 8 te
 ## Sources Used
 
 * **Bootstrap 5:** The layout and components for this site were styled using the Bootstrap 5 framework.
-    * Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  * Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+* **LinkedIN** The Logos Used Are Trademarked To LinkedIn
+  * Source: https://brand.linkedin.com/linkedin-logo
+* **GitHub** The Logos Used Are Trademarked To Github
+  * Source: https://github.com/logos

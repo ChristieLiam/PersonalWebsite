@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route} from 'react-router-dom';
 import Header from './components/Header';
@@ -7,22 +6,31 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound'
+import ContactMe from "./pages/ContactMe";
+import Skills from './pages/Skills';
+import LabInfo from "./pages/LabInfo";
+import { PageTheme } from './PageTheme';
 
 function App() {
-  return (
-      <>
-        <Header />
-        <main className="container my-5">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
-        <Footer />
-      </>
-  );
+    return (
+        <div className="d-flex flex-column min-vh-100">
+            <PageTheme>
+                <Header />
+                <main className="flex-grow-1 d-flex flex-column">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/contact" element={<ContactMe />} />
+                        <Route path="/skills" element={<Skills />} />
+                        <Route path="/lab" element={<LabInfo />} />
+                        <Route path="*" element={<NotFound />} />
+                    </Routes>
+                </main>
+                <Footer />
+            </PageTheme>
+        </div>
+    );
 }
 
 export default App;
