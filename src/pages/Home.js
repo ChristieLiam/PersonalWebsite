@@ -37,7 +37,9 @@ function Home() {
                             <p className="fs-4">
                                 Welcome to my project for CSCI 3172 (Web-Centric Computing).
                                 This is a multi-page portfolio built from scratch using React,
-                                React Router, and Bootstrap 5, and deployed on AWS Amplify.
+                                React Router, and Bootstrap 5. The frontend is deployed on
+                                <strong> AWS Amplify</strong>, while the backend utilizes
+                                <strong> Netlify Functions</strong> for serverless API integration.
                             </p>
                             <hr className="my-4"/>
                             <p>Explore the site to see my projects or learn more about my skills.</p>

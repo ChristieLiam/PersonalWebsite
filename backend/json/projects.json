@@ -82,21 +82,22 @@
     {
       "id": "portfolio-site",
       "title": "Personal Portfolio Website",
-      "role": "Frontend Developer",
+      "role": "Full-Stack Developer",
       "context": "Academic Project",
-      "summary": "This website! A multi-page personal portfolio built to showcase my Skills.js, education, and projects.",
+      "summary": "This website! A multi-page personal portfolio built to showcase my skills and education. It features a React frontend hosted on AWS Amplify and a custom serverless backend hosted on Netlify.",
       "keyContributions": [
-        "Built from scratch using React and React Router to create a multi-page application.",
-        "Styled with Bootstrap 5 for a clean, modern design meeting WCAG accessibility requirements.",
-        "Deployed to AWS Amplify with a continuous deployment (CI/CD) pipeline connected to GitHub."
+        "Built a responsive frontend from scratch using React, React Router, and Bootstrap 5.",
+        "Engineered a serverless backend using Netlify Functions (Node.js) to serve project and skill data via a REST API.",
+        "Integrated the OpenWeatherMap API with secure server-side environment variable management.",
+        "Deployed the frontend to AWS Amplify with a CI/CD pipeline connected to GitHub."
       ],
       "technologies": [
         "React.js",
-        "React Router",
-        "Bootstrap 5",
+        "Netlify Functions",
+        "Node.js",
         "AWS Amplify",
-        "Git",
-        "CI/CD"
+        "Bootstrap 5",
+        "OpenWeatherMap API"
       ],
       "links": {
         "demo": null,
