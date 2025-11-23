@@ -1,7 +1,7 @@
 # Personal Website
 
 * *Date Created*: 08 11 2025
-* *Last Modification Date*: 10 11 2025
+* *Last Modification Date*: 23 11 2025
 * *Site URL*: <https://main.dtgafn2dlji78.amplifyapp.com/>
 * *API URL* <https://exquisite-meerkat-2c2369.netlify.app/.netlify/functions/api>
 
