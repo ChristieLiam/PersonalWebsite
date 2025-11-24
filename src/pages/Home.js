@@ -1,10 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import profileImage from '../assets/images/me.jpg';
 
-//TODO Make Webpage rescale to fit on any screen
-//TODO Make New Unit Tests
-
-
 function Home() {
     const [weather, setWeather] = useState(null);
 

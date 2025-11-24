@@ -22,7 +22,6 @@ function ContactMe() {
                             Feel free to reach out via LinkedIn or check out my code on GitHub.
                         </p>
 
-                        {/* Icon Container */}
                         <div className="d-flex justify-content-center gap-4 align-items-center">
 
                             <a href="https://www.linkedin.com/in/liam-christie-8873b62a8/" target="_blank" rel="noopener noreferrer">
@@ -35,7 +34,6 @@ function ContactMe() {
 
                         </div>
 
-                        {/* Optional Email Text */}
                         <div className="mt-5">
                             <p className="small text-muted mb-0">Prefer email?</p>
                             <a href="mailto:lm577319@dal.ca" className="text-decoration-none fw-semibold">
