@@ -9,7 +9,6 @@ import ContactMe from './pages/ContactMe';
 import Skills from './pages/Skills';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import LabInfo from './pages/LabInfo';
 import NotFound from './pages/NotFound';
 import { PageTheme } from './PageTheme';
 
@@ -127,12 +126,6 @@ test('Renders Contact Me page', () => {
 
     expect(screen.getByRole('heading', { name: /Let's Connect!/i })).toBeInTheDocument();
     expect(screen.getByText(/lm577319@dal.ca/i)).toBeInTheDocument();
-});
-
-test('Renders Lab-Info page', () => {
-    renderWithProviders(<LabInfo />);
-
-    expect(screen.getByText(/PersonalPortfolio V2/i)).toBeInTheDocument();
 });
 
 test('Header Renders Navigation Links', () => {

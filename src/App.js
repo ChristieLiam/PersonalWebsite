@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import NotFound from './pages/NotFound'
 import ContactMe from "./pages/ContactMe";
 import Skills from './pages/Skills';
-import LabInfo from "./pages/LabInfo";
 import { PageTheme } from './PageTheme';
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<ContactMe />} />
                         <Route path="/skills" element={<Skills />} />
-                        <Route path="/lab" element={<LabInfo />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </main>

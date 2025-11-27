@@ -42,7 +42,6 @@ To ensure robust testing without relying on external dependencies, I implemented
 ### Static Page Tests (4 Tests)
 * **About Page:** Verifies the correct rendering of the "About Me" section and educational background details ("Dalhousie University").
 * **Contact Me:** Checks for the presence of the "Let's Connect!" heading and ensures contact details (email address) are visible.
-* **Lab Info:** Confirms that the Lab-Info page renders the correct version control text ("PersonalPortfolio V2").
 * **NotFound Page:** Isolates the 404 error component to ensure it displays the correct "404 - Page Not Found" error message to the user.
 
 All 9 automated tests were run using `npm test` and passed successfully.
