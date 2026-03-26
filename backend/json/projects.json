@@ -1,108 +1,79 @@
 {
   "projects": [
     {
-      "id": "deebug-ai",
-      "title": "DEEBug - AI Debugging Tool",
-      "role": "Frontend Developer & Backend Contributor",
-      "context": "CSCI-2691 Junior Developer Class",
-      "summary": "A web-based AI tool designed to help developers detect and fix performance bugs (like low accuracy) in deep learning models.",
+      "id": "led-roadway-lighting",
+      "category": "professional",
+      "title": "LED Roadway Lighting",
+      "role": "R&D Research Associate",
+      "context": "Professional Experience · Halifax, NS",
+      "summary": "Developing full-stack software solutions and deploying edge-AI technology for smart city infrastructure.",
       "keyContributions": [
-        "Engineered the frontend redesign from a single-script upload system to a modular, multi-step pipeline.",
-        "Built React.js components for the five key pipeline stages: Data Preparation, Model Definition, Training, Evaluation, and Visualization.",
-        "Integrated the CodeMirror library to create in-browser, syntax-highlighted code editors with pre-filled templates.",
-        "Implemented form validation to ensure users followed required function templates.",
-        "Contributed to the Python (Flask) backend API to manage the ML workflow and script assembly.",
-        "Integrated backend systems to analyze results with the Gemini API and display TensorFlow visualizations."
+        "Engineered a full-stack lighting simulation platform using Python (Flask) and vanilla JavaScript, integrating the Radiance engine to perform complex raytracing and light calculations for internal and customer use.",
+        "Deployed AI-driven computer vision models onto smart camera hardware to enable real-time intrusion detection and detailed roadway statistical analysis.",
+        "Processed live data streams to validate deep learning model performance and ensure high model accuracy, using Python and Microsoft Excel for rigorous data analytics and QA.",
+        "Designed and maintained REST APIs to bridge heavy computational backend scripts and frontend interfaces, ensuring seamless data flow for simulation tools."
       ],
-      "technologies": [
-        "React.js",
-        "Python",
-        "Flask",
-        "CodeMirror",
-        "Tailwind CSS",
-        "Gemini API",
-        "TensorFlow"
+      "technologies": ["Python", "Flask", "JavaScript", "REST APIs", "Computer Vision", "Deep Learning", "Radiance Engine", "Microsoft Excel"]
+    },
+    {
+      "id": "deebug-ai",
+      "category": "project",
+      "title": "DEEBug — AI Debugging Tool",
+      "role": "Front-End / Full-Stack Developer",
+      "context": "CSCI 2691 Junior Developer",
+      "summary": "A web-based tool designed to detect and fix performance bugs in deep learning models, featuring a modular ML pipeline with an in-browser code editor and AI-powered result analysis.",
+      "keyContributions": [
+        "Built modular, reusable front-end components using React, React Router, and Tailwind CSS for the core ML pipeline (data prep, model definition, training, evaluation, and visualization).",
+        "Implemented UI/UX for a modular code redesign, allowing users to write Python scripts directly into a web-based code editor.",
+        "Contributed to a full-stack system where a React front-end communicates with a Python/Flask backend API.",
+        "Integrated backend systems that assemble and execute Python code, analyze results with the Gemini API, and display TensorFlow visualizations."
       ],
-      "links": {
-        "demo": null,
-        "repo": null
-      }
+      "technologies": ["React", "React Router", "Tailwind CSS", "Python", "Flask", "Gemini API", "TensorFlow", "CodeMirror"]
     },
     {
       "id": "webmail-client",
+      "category": "project",
       "title": "Full-Stack Webmail Client",
-      "role": "Creator & Full-Stack Developer",
+      "role": "Creator / Full-Stack Developer",
       "context": "Academic Project",
-      "summary": "A full-stack web application built from scratch to handle user authentication, email composition, and storage.",
+      "summary": "Designed, built, and deployed a full-stack web application from scratch — a complete email client with user authentication, inbox/sent management, and email composition.",
       "keyContributions": [
         "Engineered a RESTful API using Node.js and Express to handle all user and email operations.",
-        "Implemented a complete user authentication system using Express Sessions and crypto for secure SHA-256 password hashing.",
+        "Implemented a complete user authentication system using Express Sessions and crypto for secure SHA-256 password hashing and verification.",
         "Designed and managed a MySQL database schema for users, login credentials, and email storage.",
-        "Developed a responsive, multi-page front-end with HTML, Bootstrap, and vanilla JavaScript."
+        "Developed a responsive, multi-page front-end with HTML, Bootstrap, and vanilla JavaScript for composing email, viewing inbox/sent, and user registration."
       ],
-      "technologies": [
-        "Node.js",
-        "Express",
-        "MySQL",
-        "HTML5",
-        "Bootstrap",
-        "Vanilla JavaScript",
-        "Crypto (SHA-256)"
-      ],
-      "links": {
-        "demo": null,
-        "repo": null
-      }
+      "technologies": ["Node.js", "Express", "MySQL", "HTML5", "CSS3", "Bootstrap", "Vanilla JavaScript", "Crypto (SHA-256)"]
     },
     {
       "id": "hotel-booking",
+      "category": "project",
       "title": "Hotel Web Booking Platform",
-      "role": "Creator & Full-Stack Developer",
+      "role": "Creator / Full-Stack Developer",
       "context": "Academic Project",
-      "summary": "A full-stack web application for browsing and booking hotel rooms using a custom file-based database.",
+      "summary": "A full-stack web application for browsing and booking hotel rooms, built on a custom file-based database with zero third-party frameworks on the backend.",
       "keyContributions": [
-        "Built a custom backend server from scratch using the native Node.js http module (no framework) to handle routing.",
-        "Engineered a custom REST API (/api/rooms) that serves room data from a JSON file-based database.",
-        "Implemented server-side business logic for date conflict validation and room availability checks using the fs module.",
+        "Built a custom backend server from scratch using the native Node.js http module (no framework) to handle all routing.",
+        "Engineered a custom REST API (/api/rooms) serving room data from a JSON file-based database.",
+        "Implemented server-side business logic for date conflict validation and real-time room availability checks using the fs module.",
         "Developed a responsive front-end using vanilla JavaScript to consume the API and handle booking forms."
       ],
-      "technologies": [
-        "Node.js (Native http module)",
-        "File System (fs)",
-        "JSON Database",
-        "HTML5",
-        "Bootstrap",
-        "Vanilla JavaScript"
-      ],
-      "links": {
-        "demo": null,
-        "repo": null
-      }
+      "technologies": ["Node.js (native http)", "File System (fs)", "JSON Database", "HTML5", "Bootstrap", "Vanilla JavaScript"]
     },
     {
       "id": "portfolio-site",
+      "category": "project",
       "title": "Personal Portfolio Website",
       "role": "Full-Stack Developer",
-      "context": "Academic Project",
-      "summary": "This website! A multi-page personal portfolio built to showcase my skills and education. It features a React frontend hosted on AWS Amplify and a custom serverless backend hosted on Netlify.",
+      "context": "Personal Project",
+      "summary": "This site. A multi-page portfolio with a React frontend, serverless backend, and a liquid-glass UI — deployed across AWS Amplify and Netlify Functions.",
       "keyContributions": [
-        "Built a responsive frontend from scratch using React, React Router, and Bootstrap 5.",
+        "Built a responsive React frontend with React Router, a custom liquid-glass design system, and smooth scroll-reveal animations.",
         "Engineered a serverless backend using Netlify Functions (Node.js) to serve project and skill data via a REST API.",
-        "Integrated the OpenWeatherMap API with secure server-side environment variable management.",
-        "Deployed the frontend to AWS Amplify with a CI/CD pipeline connected to GitHub."
+        "Integrated the OpenWeatherMap API with secure environment variable management.",
+        "Deployed to AWS Amplify with a CI/CD pipeline connected to GitHub."
       ],
-      "technologies": [
-        "React.js",
-        "Netlify Functions",
-        "Node.js",
-        "AWS Amplify",
-        "Bootstrap 5",
-        "OpenWeatherMap API"
-      ],
-      "links": {
-        "demo": null,
-        "repo": "https://github.com/ChristieLiam/"
-      }
+      "technologies": ["React", "React Router", "Bootstrap 5", "Node.js", "Netlify Functions", "AWS Amplify", "OpenWeatherMap API"]
     }
   ]
 }

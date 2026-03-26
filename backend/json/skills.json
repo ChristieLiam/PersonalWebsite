@@ -1,92 +1,40 @@
 {
   "skillCategories": [
     {
-      "id": "programming-web-dev",
-      "categoryName": "Programming & Web Development",
-      "description": "Full-stack engineering and object-oriented design.",
-      "skills": [
-        "Python",
-        "Java",
-        "JavaScript",
-        "SQL",
-        "HTML5",
-        "CSS",
-        "C",
-        "JSX",
-        "Object-Oriented Programming (OOP)",
-        "Full-Stack Development",
-        "Front-End Development",
-        "Server-Side Scripting"
-      ]
+      "id": "frontend",
+      "categoryName": "Front-End Development",
+      "description": "Building responsive, component-driven user interfaces.",
+      "skills": ["JavaScript", "JSX", "React", "React Router", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"]
     },
     {
-      "id": "cybersecurity-net-sec",
-      "categoryName": "Cybersecurity & Network Security",
-      "description": "Network defense, protocols, and cryptography.",
-      "skills": [
-        "Cybersecurity",
-        "Network Security",
-        "Cryptography",
-        "Information Security",
-        "Intrusion Detection and Prevention (IDS/IPS)",
-        "Firewalls",
-        "Vulnerability Assessment",
-        "Network Protocols",
-        "TCP/IP",
-        "SSH",
-        "TLS",
-        "VPN",
-        "SQL Injection",
-        "Malware Analysis",
-        "Social Engineering",
-        "Phishing Prevention"
-      ]
+      "id": "backend",
+      "categoryName": "Back-End Development",
+      "description": "Servers, APIs, and application logic.",
+      "skills": ["Node.js", "Express", "Python", "Flask", "PHP", "Java", "C", "REST APIs"]
     },
     {
-      "id": "data-ai",
-      "categoryName": "Data & AI",
-      "description": "Database management and machine learning.",
-      "skills": [
-        "Data Analysis",
-        "Data Management",
-        "Database Systems",
-        "Artificial Intelligence (AI)",
-        "Machine Learning (ML)",
-        "SQL",
-        "Python"
-      ]
+      "id": "ai-ml",
+      "categoryName": "AI & Machine Learning",
+      "description": "Building and integrating intelligent systems.",
+      "skills": ["Gemini API", "TensorFlow", "Computer Vision", "Deep Learning", "Data Analytics"]
     },
     {
-      "id": "tools-methodologies",
-      "categoryName": "Tools & Methodologies",
-      "description": "Version control, Agile, and DevOps tools.",
-      "skills": [
-        "Git",
-        "Source Control",
-        "Agile Methodologies",
-        "Software Development Life Cycle (SDLC)",
-        "Nmap",
-        "Wireshark",
-        "Microsoft Office Suite (Excel, PowerPoint, Word)",
-        "Google Workspace",
-        "Windows OS",
-        "macOS"
-      ]
+      "id": "databases",
+      "categoryName": "Databases",
+      "description": "Data modelling, querying, and storage.",
+      "skills": ["MySQL", "SQL", "Database Design", "JSON (File-based)"]
     },
     {
-      "id": "interpersonal-soft-skills",
-      "categoryName": "Interpersonal & Soft Skills",
-      "description": "Professional communication and collaboration.",
-      "skills": [
-        "Communication",
-        "Teamwork",
-        "Problem-Solving",
-        "Adaptability",
-        "Time Management",
-        "Attention to Detail",
-        "Self-Starter",
-        "Dependability"
-      ]
+      "id": "security-auth",
+      "categoryName": "Security & Auth",
+      "description": "Secure authentication patterns and network security fundamentals.",
+      "skills": ["Express Sessions", "Password Hashing (SHA-256)", "TCP/IP", "TLS", "Firewalls", "Cryptography", "Intrusion Detection"]
+    },
+    {
+      "id": "tools",
+      "categoryName": "Tools & Workflow",
+      "description": "Version control, deployment, and productivity tools.",
+      "skills": ["Git", "GitHub", "AWS Amplify", "Netlify", "Microsoft 365", "Google Workspace", "macOS", "Windows"]
     }
   ]
 }

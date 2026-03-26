@@ -1,15 +1,19 @@
 import React from 'react';
-import {useTheme} from "../PageTheme";
+import { useTheme } from '../PageTheme';
 
 function Footer() {
-    const { theme , toggleTheme} = useTheme();
-    const date = new Date();
-    const year = date.getFullYear();
+    const { theme, toggleTheme } = useTheme();
+    const year = new Date().getFullYear();
 
     return (
-        <footer className="p-2 bg-dark d-flex justify-content-between align-items-center">
-            <p className="mb-0 text-light">Liam Christie© {year}</p>
-            <button onClick={toggleTheme} className={`btn ${theme === 'light' ? 'btn-outline-light' : 'btn-outline-light'}`}>{theme === 'light' ? 'Dark' : 'Light'} Mode</button>
+        <footer className="site-footer">
+            <div className="footer-pill">
+                <span>© {year} <strong>Liam Christie</strong></span>
+                <div className="footer-sep" />
+                <button className="theme-btn" onClick={toggleTheme}>
+                    {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
+                </button>
+            </div>
         </footer>
     );
 }

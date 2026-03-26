@@ -1,43 +1,57 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+const NAV_LINKS = [
+    { to: '/',         label: 'Home',     end: true },
+    { to: '/about',    label: 'About' },
+    { to: '/projects', label: 'Work' },
+    { to: '/skills',   label: 'Skills' },
+    { to: '/contact',  label: 'Contact' },
+];
 
 function Header() {
-    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-
-    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+    const [open, setOpen] = useState(false);
 
     return (
+        <nav data-bs-theme="dark" className={`navbar navbar-expand-lg navbar-dark pill-nav ${open ? 'nav-open' : ''}`}>
+            <div className="d-flex align-items-center w-100 gap-2">
 
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container">
+                <Link className="navbar-brand" to="/" onClick={() => setOpen(false)}>
+                    Liam<span className="text-accent">.</span>
+                </Link>
 
-                <Link className="navbar-brand" to="/">Liam Christie | Portfolio</Link>
+                {/* Divider — desktop only */}
+                <div className="nav-sep d-none d-lg-block" />
 
-                <button className="navbar-toggler" onClick={handleNavCollapse} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
-
-                    <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/">Home</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/about">About</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/projects">Projects</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/skills">Skills</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                        </li>
+                {/* Links */}
+                <div className={`${open ? '' : 'collapse'} navbar-collapse`}>
+                    <ul className="navbar-nav ms-lg-auto align-items-lg-center gap-1">
+                        {NAV_LINKS.map(({ to, label, end }) => (
+                            <li className="nav-item" key={to}>
+                                <NavLink
+                                    className="nav-link"
+                                    to={to}
+                                    end={end}
+                                    onClick={() => setOpen(false)}
+                                >
+                                    {label}
+                                </NavLink>
+                            </li>
+                        ))}
                     </ul>
                 </div>
+
+                {/* Mobile toggler */}
+                <button
+                    className="navbar-toggler ms-auto d-lg-none"
+                    type="button"
+                    aria-expanded={open}
+                    aria-label="Toggle navigation"
+                    onClick={() => setOpen(p => !p)}
+                >
+                    <span className="navbar-toggler-icon" />
+                </button>
+
             </div>
         </nav>
     );
